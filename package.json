@@ -1,0 +1,24 @@
+{
+  "name": "web-component-modal-window",
+  "version": "0.1.0",
+  "description": "Self-contained HTML Modal Window element. **For Bootstrap 4**.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mliszcz/web-component-modal-window.git"
+  },
+  "keywords": [
+    "webcomponents",
+    "bootstrap",
+    "modal"
+  ],
+  "author": "mliszcz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mliszcz/web-component-modal-window/issues"
+  },
+  "homepage": "https://github.com/mliszcz/web-component-modal-window#readme"
+}
