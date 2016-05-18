@@ -1,4 +1,5 @@
 # web-component-modal-window
+
 Self-contained HTML Modal Window element. **For Bootstrap 4**.
 
 ## Requirements
@@ -7,12 +8,12 @@ Self-contained HTML Modal Window element. **For Bootstrap 4**.
 * Web Components support (including Shadow DOM V0),
 * Bootstrap **4**.
 
-In Firefox enable flag `dom.webcomponents.enable` in `about:config` tab.
+> In Firefox enable flag `dom.webcomponents.enable` in `about:config` tab.
 
 ## Example
 
 ```html
-<link rel="import" href="node_modules/web-component-modal-window/x-modal-window.html">
+<link rel="import" href="node_modules/web-component-modal-window/dist/x-modal-window.html">
 
 <div is="x-modal-window"
      url-bootstrap-css="node_modules/bootstrap/dist/css/bootstrap.css"

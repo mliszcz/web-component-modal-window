@@ -4,6 +4,9 @@
   "description": "Self-contained HTML Modal Window element. **For Bootstrap 4**.",
   "main": "index.js",
   "scripts": {
+    "compile": "rollup -c .rollup.config.js",
+    "lint": "eslint src",
+    "prepublish": "npm run lint && npm run compile",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +23,13 @@
   "bugs": {
     "url": "https://github.com/mliszcz/web-component-modal-window/issues"
   },
-  "homepage": "https://github.com/mliszcz/web-component-modal-window#readme"
+  "homepage": "https://github.com/mliszcz/web-component-modal-window#readme",
+  "devDependencies": {
+    "eslint": "^2.10.2",
+    "rollup": "^0.26.3"
+  },
+  "peerDependnecies": {
+    "bootstrap": ">=4.0.0-alpha.2",
+    "jquery": "*"
+  }
 }
