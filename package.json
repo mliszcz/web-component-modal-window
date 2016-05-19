@@ -6,6 +6,7 @@
   "scripts": {
     "compile": "rollup -c .rollup.config.js",
     "lint": "eslint src",
+    "preinstall": "npm run compile",
     "prepublish": "npm run lint && npm run compile",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
